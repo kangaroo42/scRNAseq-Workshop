@@ -1,0 +1,21 @@
+========================================
+Single Cell RNA-Seq Analysis with Python
+========================================
+
+Dataset: 10k Brain Cells from an E18 Mouse [10X Chromium (v3)]
+
+================================
+Python and R kernels for Jupyter
+================================
+
+pip install jupyter
+conda install -c r r-essentials
+jupyter notebook
+
+============
+Dependencies
+============
+
+conda install -c vtraag louvain
+pip install scanpy
+conda install -c bioconda gseapy
